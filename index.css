@@ -1,0 +1,111 @@
+body {
+    background-color: rgb(199, 169, 197);
+    text-align: center;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 65px;
+}
+
+
+
+.dice-button button {
+    background-color: purple;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 200px;
+    height: 150px;
+    font-size: 35px;
+
+}
+
+
+.dice-button button.clicked {
+    background-color: pink;
+    color: black;
+}
+
+.hold-button button {
+    background-color: purple;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 200px;
+    height: 150px;
+    font-size: 35px;
+
+}
+
+.hold-button button.clicked {
+    background-color: pink;
+    color: black;
+}
+
+
+
+.dice-result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+
+    background-color: rgb(173, 139, 173);
+    color: 173, 139, 173;
+    padding: 10px;
+    border: 2px solid black;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 500px;
+    height: 300px;
+    font-size: 35px;
+
+}
+
+.dice-points {
+
+    background-color: rgb(173, 139, 173);
+    color: 173, 139, 173;
+    padding: 10px;
+    border: 2px solid black;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 500px;
+    height: 250px;
+    font-size: 35px;
+
+}
+
+
+#diceResult {
+    width: 200px;
+    padding: 10px;
+    font-size: 40px;
+
+    text-align: right;
+
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+#dicePoints {
+    width: 200px;
+    padding: 10px;
+    font-size: 40px;
+
+    text-align: right;
+
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+}

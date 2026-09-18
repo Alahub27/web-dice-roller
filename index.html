@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="index.css" />
+		<script defer src="index.js"></script>
+		<title>Web Dice Roll: Pigs Game</title>
+	</head>
+
+<body onload="rollDice()">
+
+    <main class="pig game">
+        <h1>Pig Lite Dice Roller</h1>
+        <h2>Instructions: <br>
+        <br> Roll the die to play Pig Lite. If you roll a 1, your turn is over and its player 2 turn. <br>
+        If you roll a 2-6, you can keep going!<br>
+        The first player to get to 100 points wins!
+
+        <h2>How the Point System Works: <br>
+        <br> The players points will continue to total up everytime a player rolls a number from 2-6. <br>
+        Players can press the Hold button to save the points they have accumulayed during their current turn. 
+        Once the player presse Hold, those points are added to their total or preserved points, andd it becomes the other players turn. <br>
+
+        If the player rolls a 1, their current turn is over and it becomes the other players 2 turn. <br>
+        Rolling a 1 does not reset the player preserved or total points. However, any points accumulated during the players
+        current turn before rolling 1 will be reset to 0.
+        </h2>
+
+    
+        <div class ="dice-button">
+            <button id= "rollButton" autofocus>Roll Dice</button>
+        </div>
+
+        <div class="hold-button">
+            <button id="holdButton" autofocus>Hold Button</button>
+        </div>
+
+
+        <div class="dice-result">   
+            <label for="diceResult">Dice Result:</label>
+            <input type="text" id="diceResult" readonly>
+
+            <p id="diceMessage"></p>
+
+       
+        <div class="dice-points">
+            <label for="dicePoints">Total Dice Points:</label>
+            <input type="text" id="dicePoints" readonly>
+
+            <p id="diceMessage"></p>
+        </div>
+
+        <div class="player-1">
+            <label for="playerOne">Player 1 Total:</label>
+            <input type="text" id="playerOnePoints" values="0" readonly>
+        </div>
+
+        <div class="player-2">
+            <label for="playerTwo">Player 2 Total:</label>
+            <input type="text" id="playerTwoPoints" values="0" readonly>
+        </div>
+
+    </main>
+
+</body>
+
