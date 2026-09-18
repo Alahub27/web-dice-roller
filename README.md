@@ -3,7 +3,6 @@
 ### Class: Software Engineering
 
 ### Credits
-Lewis Univerity standard resume template was used to create my resume.
 ChatGPT, W3Schools was used as assistant for my HTML/CSS coding
 Eric Pogue for the hello world template repository.
 
